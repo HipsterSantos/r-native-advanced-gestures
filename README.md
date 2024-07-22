@@ -1,79 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# Обработка Современных Жестов в React Native
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Добро пожаловать в проект Обработка Современных Жестов в React Native! Этот репозиторий демонстрирует различные современные техники обработки жестов в React Native. Мы стремимся предоставить исчерпывающее руководство и примеры для реализации различных шаблонов жестов, обеспечивая бесшовный и интуитивно понятный пользовательский опыт.
 
-## Step 1: Start the Metro Server
+## Структура Проекта
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Проект структурирован на несколько веток, каждая из которых демонстрирует определенный экран с продвинутой обработкой жестов. Мы исследуем до шести различных экранов, каждый из которых находится в своей ветке. Ветки названы численно для легкой идентификации.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## URL Репозитория
 
-```bash
-# using npm
-npm start
+Вы можете найти репозиторий [здесь](https://github.com/HipsterSantos/r-native-advanced-gestures).
 
-# OR using Yarn
-yarn start
-```
+## Экраны с Продвинутыми Жестами
 
-## Step 2: Start your Application
+1. **Свайпаемый Список**
+   - Демонстрирует реализацию свайпаемого списка, где элементы можно свайпать для отображения действий, таких как удаление или архивирование.
+   - ![Свайпаемый Список](public/original-86c3d25ab24c427cc552e384b12281a0.png)
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+2. **Перетаскиваемые Элементы**
+   - Показывает, как реализовать перетаскиваемые элементы, которые пользователи могут перемещать по экрану.
+   - ![Перетаскиваемые Элементы](public/original-87d83e2805f5b07d6f0b4eefacd1a31d.png)
 
-### For Android
+3. **Щипок для Увеличения**
+   - Реализует функцию увеличения с помощью жеста щипка на изображениях или других элементах.
+   - ![Щипок для Увеличения](public/original-947dbb411ad410cd202be5b63fc1af2e.png)
 
-```bash
-# using npm
-npm run android
+4. **Двойное Нажатие**
+   - Демонстрирует жесты двойного нажатия для таких действий, как лайк поста или увеличение изображения.
+   - ![Двойное Нажатие](public/original-b2388acf604f379ad7e48b93a2871b4e.png)
 
-# OR using Yarn
-yarn android
-```
+5. **Длительное Нажатие**
+   - Показывает, как обрабатывать жесты длительного нажатия для выполнения действий, таких как показ контекстного меню.
+   - ![Длительное Нажатие](public/original-dca2ae6dc9f06a52a2dc2f69a788255a.png)
 
-### For iOS
+6. **Сложные Жесты**
+   - Исследует обработку сложных жестов, включающих несколько точек касания и взаимодействий.
+   - ![Сложные Жесты](public/original-fbc2e24d7a6fd2b0980c671f28516751.png)
 
-```bash
-# using npm
-npm run ios
+## Видео Демонстрация
 
-# OR using Yarn
-yarn ios
-```
+Посмотрите видео демонстрацию, чтобы увидеть эти типы жестов в действии:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+[![Посмотреть видео](public/original-fbc2e24d7a6fd2b0980c671f28516751.png)](public/original-f340c550de127c2a57a724194098aa20.mp4)
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Нажмите на миниатюру, чтобы посмотреть демонстрационное видео.
 
-## Step 3: Modifying your App
+## Начало Работы
 
-Now that you have successfully run the app, let's modify it.
+### Необходимые Условия
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- Node.js
+- npm или yarn
+- React Native CLI
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Установка
 
-## Congratulations! :tada:
+1. Клонируйте репозиторий:
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+   ```bash
+   git clone https://github.com/HipsterSantos/r-native-advanced-gestures.git
+   cd r-native-advanced-gestures
